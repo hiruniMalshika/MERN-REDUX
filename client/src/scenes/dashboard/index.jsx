@@ -55,11 +55,6 @@ const Dashboard = () => {
       flex: 1,
       renderCell: (params) => `$${Number(params.value).toFixed(2)}`,
     },
-    {
-      field: "role",
-      headerName: "Role",
-      flex: 0.5,
-    },
   ];
 
   return (
